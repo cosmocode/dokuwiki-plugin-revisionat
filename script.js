@@ -40,6 +40,9 @@ jQuery(function() {
 
         var $elem = jQuery(element);
         var href = $elem.attr('href');
+        if (!href) {
+            return;
+        }
         $elem.attr('href', href.replace(/rev(=\d{10})/, 'at$1'));
     })
 
