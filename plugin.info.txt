@@ -1,0 +1,7 @@
+base   revisionat
+author Michael Große
+email  dokuwiki@cosmocode.de
+date   2017-10-16
+name   RevisionAt Plugin
+desc   Link to old version of the wiki from old revisions page
+url    https://dokuwiki.org/plugin:revisionat
